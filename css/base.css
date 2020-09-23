@@ -1,0 +1,133 @@
+body{
+	font: 300 15px 'Roboto', sans-serif !important;
+	background-color: #ebebeb;
+}
+a,
+a:hover{
+	color: #4ba1f1;
+}
+address{
+	line-height: 1.5em;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	font-weight: 300;
+}
+.top-row{
+	padding-top: 30px;
+	padding-bottom: 75px;
+
+}
+.wrap-photo img{
+	position: relative;
+	display: block;
+	width: 100%;
+	border: 10px solid #ffffff;
+}
+.main-row{
+	padding-bottom: 60px;
+}
+.item-skill{
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+.title-skill{
+	display: block;
+}
+.level-skill{
+	height: 3px;
+	background-color: #4ba1f1;
+	display: block;
+}
+.item-skill .level-skill{
+	width: 0;
+}
+
+.swift-skill .level-skill{
+	width: 35%;
+}
+.objective-c-skill .level-skill{
+	width: 10%;
+}
+.c-skill .level-skill{
+	width: 25%;
+}
+.cpp-skill .level-skill{
+	width: 25%;
+}
+
+
+.php-skill .level-skill{
+	width: 90%;
+}
+.mysql-skill .level-skill{
+	width: 60%;
+}
+.html-skill .level-skill{
+	width: 90%;
+}
+.css-skill .level-skill{
+	width: 90%;
+}
+.bootstrap-skill .level-skill{
+	width: 90%;
+}
+.javascript-skill .level-skill{
+	width: 55%;
+}
+.jquery-skill .level-skill{
+	width: 75%;
+}
+.ajax-skill .level-skill{
+	width: 60%;
+}
+.git-skill .level-skill{
+	width: 65%;
+}
+
+
+.wordpress-skill .level-skill{
+	width: 65%;
+}
+.modx-skill .level-skill{
+	width: 55%;
+}
+.drupal-skill .level-skill{
+	width: 35%;
+}
+.opencart-skill .level-skill{
+	width: 35%;
+}
+.nette-skill .level-skill{
+	width: 30%;
+}
+
+
+
+.english-skill .level-skill{
+	width: 10%;
+}
+.czech-skill .level-skill{
+	width: 20%;
+}
+.russian-skill .level-skill{
+	width: 100%;
+}
+.ukrainian-skill .level-skill{
+	width: 95%;
+}
+.wrap-main-text ul li{
+	margin-bottom: 15px;
+}
+.wrap-title h2{
+	font-size: 1.2em;
+}
+
+/* Only extra small */
+@media only all and (max-width: 575px) {
+	.wrap-title,
+	.wrap-address{
+		padding-top: 15px;
+		text-align: center;
+	}
+}
+/* End Only extra small */
